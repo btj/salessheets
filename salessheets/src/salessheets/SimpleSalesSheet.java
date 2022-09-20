@@ -42,6 +42,8 @@ public class SimpleSalesSheet extends SalesSheet {
 	 * @throws IllegalArgumentException | sales == null || sales.length != nbFlavours * nbLocations * nbPeriods
 	 * @throws IllegalArgumentException | Arrays.stream(sales).anyMatch(n -> n < 0)
 	 * 
+	 * @inspects | sales
+	 * 
 	 * @post | getNbFlavours() == nbFlavours
 	 * @post | getNbLocations() == nbLocations
 	 * @post | getNbPeriods() == nbPeriods
